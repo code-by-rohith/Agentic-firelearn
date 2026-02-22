@@ -18,6 +18,8 @@ time_agent = RemoteA2aAgent(
     agent_card=f"http://localhost:8001{AGENT_CARD_WELL_KNOWN_PATH}",
 )
 
+print("Initializing root agent with sub-agents...")
+
 root_agent = Agent(
     name="metaagent",
     model="gemini-3-flash-preview",
