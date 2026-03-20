@@ -1,0 +1,5 @@
+Firebase is a platform by Google for building mobile and web applications.
+Core services include Authentication, Firestore, Realtime Database, Cloud Functions, and Hosting.
+Firestore is a NoSQL document database with real-time sync and offline support.
+Cloud Functions lets you run backend code triggered by events.
+Firebase Authentication supports email-password, phone, and federated providers.

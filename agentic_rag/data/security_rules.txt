@@ -1,0 +1,5 @@
+Firebase Security Rules let you control access to Firestore and Storage.
+Rules are evaluated on every request and should enforce least privilege.
+A common pattern is checking request.auth != null for authenticated access.
+You can also restrict document access by matching request.auth.uid with resource ownership.
+Always test rules using the Firebase Emulator Suite before deployment.

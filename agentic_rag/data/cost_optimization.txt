@@ -1,0 +1,5 @@
+To optimize Firebase costs, reduce unnecessary reads and writes in Firestore.
+Use pagination and limit queries to reduce read operations.
+Prefer batched writes when updating many documents.
+Enable cache and avoid repeated listeners where not needed.
+Set budget alerts in Google Cloud Billing to detect spikes early.
